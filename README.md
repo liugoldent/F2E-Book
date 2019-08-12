@@ -1,25 +1,31 @@
 ---
-description: 成為「超級幼幼班，初階前端工程師」吧！
+description: This Book Is For People who wants to become F2E
 ---
 
-# JuJunior Front End Engineer
+# INTRODUCTION
 
-資料參考：
+## WHY TO DO：
 
-{% embed url="https://www.hexschool.com/qa/how-to.html" %}
+記錄那些，在這條路上遇到的困難、選擇、工具。
 
-## 步驟
+## WHY GitBOOK：
 
-1. HTML & CSS 排版 
-2. jQuery 設計網頁互動效果 
-3. 複習 HTML、CSS、jQuery 
-4. RWD開發 
-5. BootStrap 
-6. JS基礎 
-7. AJAX / JSON 
-8. Git / Github Used 
-9. 學習框架：Vue、React、Angular 
-10. 設計作品集
+我希望閱讀者可以一目瞭然，直接點進自己想看的環節。
 
+曾經使用過IT邦幫忙，但覺得分類似乎稍微不足
+
+故轉移至此。
+
+## 關於本人：
+
+[About Me](https://liugoldent.github.io/LgtProfile/profile.html)
+
+## 事實：
+
+所謂的事實，這條路必定沒有那麼簡單，
+
+唯有持續努力，才不會落後。
+
+既然踏進了這條行業，就是不斷鞭策自己吧！  
 
 
