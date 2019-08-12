@@ -7,7 +7,7 @@
 ## SKILLS：
 
 1. HTML、CSS、JS： 這三個如果不努力學，我不知道該怎麼說了。 
-2. BootStrap： 這是我控制網頁排版的一個工具，個人也覺得算是好上手。 推薦網站：[神的](http://www.runoob.com/bootstrap4/bootstrap4-tutorial.html) （其實是runoob啦） 
+2. BootStrap： 這是我控制網頁排版的一個工具，個人也覺得算是好上手。 推薦網站：[神的教學](http://www.runoob.com/bootstrap4/bootstrap4-tutorial.html)（其實是runoob啦） 
 3. Vue.js： 真的可以迅速開始使用，然後很推薦其官方網站 因為是中文，所以真的比較好上手。 記得教程可以全部看完！！ 推薦網站：[Vue.js](https://cn.vuejs.org/) 
 4. API串接（Restful）： 身為一個前端，就是要串串資料，多做練習 然後也感謝之前Youtube上有許多教學影片。 推薦網站：[Yakim sHu 教](https://yakimhsu.com/project/project_w4_Network_API.html)  、 [Alex Vue 全家餐影片（1:02:xx左右開始）](https://www.youtube.com/watch?v=MCTETw0Slrw&t=3760s) 
 5. ECharts： 圖形化資料的工具，同樣的也有中文。 然後建議，看實例，再去看教程，可以學更快。 推薦網站：[ECharts 官網](https://echarts.baidu.com/) 
