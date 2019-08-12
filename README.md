@@ -1,10 +1,12 @@
 ---
-description: 成為「初階前端工程師」應該做的事
+description: 成為「超級幼幼班，初階前端工程師」吧！
 ---
 
-# Junior Front End Engineer
+# JuJunior Front End Engineer
 
-資料參考：\[六角學院\]\([https://www.hexschool.com/qa/how-to.html](https://www.hexschool.com/qa/how-to.html)\)
+資料參考：
+
+{% embed url="https://www.hexschool.com/qa/how-to.html" %}
 
 ## 步驟
 
