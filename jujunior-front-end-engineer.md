@@ -2,7 +2,7 @@
 description: 成為「超級幼幼班，初階前端工程師」吧！
 ---
 
-# JuJunior Front End Engineer
+# 幼幼班の前端工程師
 
 資料參考：
 

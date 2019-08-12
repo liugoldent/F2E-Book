@@ -1,7 +1,7 @@
 # Table of contents
 
 * [INTRODUCTION](README.md)
-* [JuJunior Front End Engineer](jujunior-front-end-engineer.md)
-* [Junior Front End Engineer](junior-front-end-engineer.md)
-* [Quick Start](quick-start.md)
+* [幼幼班の前端工程師](jujunior-front-end-engineer.md)
+* [初階の前端工程師。](junior-front-end-engineer.md)
+* [快速上手/學習](quick-start.md)
 

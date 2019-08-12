@@ -2,11 +2,13 @@
 description: 想成為「初階前端工程師」，你必須知道的技能。
 ---
 
-# Junior Front End Engineer
+# 初階の前端工程師。
 
 資料參考：[前端建置工具](https://www.zhihu.com/question/37694275)
 
 這篇會對前端所需要的一些技能做介紹
+
+注意，我這邊所寫的是技能，而不是步驟。
 
 ## Skill
 
