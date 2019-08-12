@@ -6,7 +6,7 @@ description: This Book Is For People who wants to become F2E
 
 ## FOR：
 
-This Book Is For People who wants to become F2E
+This Book Is For People who wants to become F2E!
 
 ## WHY TO DO：
 
