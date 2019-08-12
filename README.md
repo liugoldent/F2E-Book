@@ -4,6 +4,8 @@ description: This Book Is For People who wants to become F2E
 
 # INTRODUCTION
 
+## 
+
 ## WHY TO DO：
 
 記錄那些，在這條路上遇到的困難、選擇、工具。
@@ -26,6 +28,5 @@ description: This Book Is For People who wants to become F2E
 
 唯有持續努力，才不會落後。
 
-既然踏進了這條行業，就是不斷鞭策自己吧！  
-
+既然踏進了這條行業，就是不斷鞭策自己吧！
 
