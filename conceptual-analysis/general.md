@@ -81,13 +81,70 @@ console.log(elements.join('-'));
 // expected output: "Fire-Air-Water"
 ```
 
+* `map()`：map 會建立一個新陣列，而其內容為原本陣列，經由函式運算過後所得到的結果。
 
+```javascript
+var array1 = [1, 4, 9, 16];
 
+// pass a function to map
+const map1 = array1.map(x => x * 2);
 
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
+```
 
+* `shift()`：移除第一個元素，並回傳被刪除的那個第一個元素。
 
+```javascript
+var array1 = [1, 2, 3];
 
+var firstElement = array1.shift();
 
+console.log(array1);
+// expected output: Array [2, 3]
+
+console.log(firstElement);
+// expected output: 1
+```
+
+* `pop()`：移除最後一個元素，並回傳被刪除的最後一個元素。
+
+```javascript
+var plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
+
+console.log(plants.pop());
+// expected output: "tomato"
+
+console.log(plants);
+// expected output: Array ["broccoli", "cauliflower", "cabbage", "kale"]
+```
+
+* `push()`：添加一個或多個元素至陣列的末端，並且回傳陣列的新長度。
+
+```javascript
+var animals = ['pigs', 'goats', 'sheep'];
+
+console.log(animals.push('cows'));
+// expected output: 4
+
+console.log(animals);
+// expected output: Array ["pigs", "goats", "sheep", "cows"]
+```
+
+* `reverse()`：反轉一個陣列。_**注意：原本陣列也會被反轉**_。
+
+```javascript
+var array1 = ['one', 'two', 'three'];
+
+var reversed = array1.reverse(); 
+console.log('reversed: ', reversed);
+// expected output: Array ['three', 'two', 'one']
+
+/* Careful: reverse is destructive. It also changes
+the original array */ 
+console.log('array1: ', array1);
+// expected output: Array ['three', 'two', 'one']
+```
 
 
 
