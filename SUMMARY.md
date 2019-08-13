@@ -7,8 +7,10 @@
 
 ## CONCEPTUAL ANALYSIS
 
+* [General](conceptual-analysis/general/README.md)
+  * [HTTP](conceptual-analysis/general/general-http.md)
+  * [Array Methods](conceptual-analysis/general/general-array-methods.md)
 * [Vue.js](conceptual-analysis/vue.js.md)
-* [General](conceptual-analysis/general.md)
 
 ## SKILL TREE
 
