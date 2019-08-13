@@ -8,11 +8,11 @@ description: This Book Is For People who wants to become F2E
 
 This Book Is For People who wants to become F2E!
 
-## WHY TO DO：
+## WHY  TO DO：
 
 記錄那些，在這條路上遇到的困難、選擇、工具。
 
-## WHY GitBOOK：
+## WHY  GitBOOK：
 
 我希望閱讀者可以一目瞭然，直接點進自己想看的環節。
 
@@ -23,6 +23,10 @@ This Book Is For People who wants to become F2E!
 ## 關於本人：
 
 [About Me](https://liugoldent.github.io/LgtProfile/profile.html)
+
+## 此篇 GitBook 網頁好讀版：
+
+[F2E-Book](https://liugoldent.gitbook.io/workspace/)
 
 ## 事實：
 
