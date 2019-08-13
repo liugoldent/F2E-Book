@@ -61,3 +61,70 @@ Ans：
 
 ## 6.Computed / Watch / Methods 的差異
 
+參考資料：[WJM1818 on OSCHINA](https://my.oschina.net/u/3649083/blog/1560106) 、[IT邦幫忙-Hunterliu](https://ithelp.ithome.com.tw/articles/10192032)
+
+SAME：都是以函數為基礎
+
+DIFFERENT：
+
+1. Watch & Computed：當相依數據發生變化時，所以依賴這個數據的相關數據，會自動變化，也就是自動調用相關的函數去實現數據變動。 THINK：資料動，我則變動。（敵動，我也動） WATCH：適合監控。 
+2. Methods：需要手動控制，就是資料變了，他不會自動去改。 THINK：資料動，需要觸發，才變動。（敵動，我不動）
+
+## 7.Computed / Filter 的差異
+
+參考資料：[小狐狸事務所](http://yhhuang1966.blogspot.com/2019/02/vue-computed-filters.html)
+
+Computed：將原始數據，做過篩選顯示。
+
+Filter：可直接於樣板標籤中呼叫並串接，用來把欲輸出之變數再處理。
+
+順序上，應該為Computed -&gt;Filter（先篩選出資料，再對資料做後處理）
+
+## 8.Directive 設計使用
+
+資料來源：[Vue.js 自定義指令](https://cn.vuejs.org/v2/guide/custom-directive.html)
+
+Main：為了讓DOM的功能做一個拓展
+
+## 9.nextTick的使用
+
+資料來源：[知乎-Vue.js$nextTick的一個問題](https://www.zhihu.com/question/50879936)
+
+簡而言之：你現在更新一個東西，但這個更新不會立即執行，必須要等DOM更新後才會執行。
+
+概念：有點像同步與非同步的概念。
+
+流程：
+
+Step1. 同步指令執行完。
+
+Step2. DOM 更新。
+
+Step3. nextTick 這時才更新。
+
+## 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
