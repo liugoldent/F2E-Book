@@ -23,14 +23,16 @@ Ans：
 Ans：
 
 1. Data 
-2. 父給子：Props / 子給父：Emit   
-3. 兄弟組建之間傳遞：Bus
+2. 父給子：Props / 子給父：Emit       
+3. 兄弟組建之間傳遞：Bus    
 
 ## 3.Vue 生命週期
 
 參考資料：[Vue生命週期函數](https://blog.csdn.net/chen1042246612/article/details/89190217)
 
-Ans：
+圖片：  
+
+翻譯：
 
 * BeforeCreate：宣告一個空的Vue 物件 
 * Created：這個 Vue 的物件初始化好了，內容的Data ＆ Methods 也好了。 
