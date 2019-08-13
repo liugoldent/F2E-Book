@@ -26,7 +26,7 @@ console.log(clothing.length);
 
 ### 方法：
 
-* `concat()`：用來合併兩個或多個陣列。此方法不會改變現有的陣列。
+* `concat()`：用來合併兩個或多個陣列。此方法_**不會**_改變現有的陣列。
 
 ```javascript
 var array1 = ['a', 'b', 'c'];
@@ -36,7 +36,7 @@ console.log(array1.concat(array2));
 // expected output: Array ["a", "b", "c", "d", "e", "f"]
 ```
 
-* `forEach()`：將陣列中的每個元素，皆傳入並執行給定的函式一次。
+* `forEach()`：將陣列中的每個元素，皆傳入並執行給定的函式一次（ _**依序**_）。
 
 ```javascript
 var array1 = ['a', 'b', 'c'];
@@ -66,7 +66,7 @@ console.log(beasts.indexOf('giraffe'));
 // expected output: -1
 ```
 
-* `join()`：將陣列中所有的元素連結，並且合併成一個字，最後回傳字串。
+* `join()`：將陣列中所有的元素連結，並且合併成一個字，最後_**回傳字串**_。
 
 ```javascript
 var elements = ['Fire', 'Air', 'Water'];
@@ -81,7 +81,7 @@ console.log(elements.join('-'));
 // expected output: "Fire-Air-Water"
 ```
 
-* `map()`：map 會建立一個新陣列，而其內容為原本陣列，經由函式運算過後所得到的結果。
+* `map()`：map 會_**建立一個新陣列**_，而其內容為原本陣列，經由函式運算過後所得到的結果。
 
 ```javascript
 var array1 = [1, 4, 9, 16];
@@ -146,9 +146,46 @@ console.log('array1: ', array1);
 // expected output: Array ['three', 'two', 'one']
 ```
 
+* `slice()`：回傳一個新陣列物件，此陣列為選擇之 _**`begin`**_ 至 _**`End-1`**_ 的拷貝，而原陣列不會被修改。
 
+```javascript
+var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
 
+console.log(animals.slice(2));
+// expected output: Array ["camel", "duck", "elephant"]
 
+console.log(animals.slice(1, 5));
+// expected output: Array ["bison", "camel", "duck", "elephant"]
+```
+
+* `splice()`：刪除已有的元素，並加入新元素來改變一個陣列的內容_**（注意位置與輸入數字）**_。
+
+```javascript
+var months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');
+// inserts at index 1
+console.log(months);
+// expected output: Array ['Jan', 'Feb', 'March', 'April', 'June']
+
+months.splice(4, 1, 'May');
+// replaces 1 element at index 4
+console.log(months);
+// expected output: Array ['Jan', 'Feb', 'March', 'April', 'May']
+```
+
+* `sort()`：排列一個陣列。
+
+```javascript
+var months = ['March', 'Jan', 'Feb', 'Dec'];
+months.sort();
+console.log(months);
+// expected output: Array ["Dec", "Feb", "Jan", "March"]
+
+var array1 = [1, 30, 4, 21, 100000];
+array1.sort();
+console.log(array1);
+// expected output: Array [1, 100000, 21, 30, 4]
+```
 
 
 
