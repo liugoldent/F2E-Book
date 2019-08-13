@@ -13,7 +13,7 @@
 ```
 
 Ans：  
-為了給Vue一個提示，方便它能追蹤每個節點的身份。並且理想的Key是唯一的值。  
+為了給Vue一個提示，方便它能追蹤每個節點的身份。並且理想的`Key`是唯一的值。  
 並且為了避免錯誤的渲染。
 
 ## 2.Vue 傳遞資料的方式
@@ -22,17 +22,15 @@ Ans：
 
 Ans：
 
-1. Data 
-2. 父給子：Props / 子給父：Emit       
-3. 兄弟組建之間傳遞：Bus    
+1. `Data` 
+2. 父給子：`Props` / 子給父：`Emit`   
+3. 兄弟組建之間傳遞：`Bus`
 
 ## 3.Vue 生命週期
 
 參考資料：[Vue生命週期函數](https://blog.csdn.net/chen1042246612/article/details/89190217)
 
-圖片：  
-
-翻譯：
+Ans：
 
 * BeforeCreate：宣告一個空的Vue 物件 
 * Created：這個 Vue 的物件初始化好了，內容的Data ＆ Methods 也好了。 
@@ -43,11 +41,23 @@ Ans：
 * BeforeDestroy：刪除之前（可以控制） 
 * Destroyed：刪除之後（無法控制）
 
-## 4.V-Model 運作方式
+## 4.V-Model 原理
 
-參考資料：
+參考資料：[IT邦幫忙-Andy Tsai](https://ithelp.ithome.com.tw/articles/10203679?sc=iThelpR)
+
+Ans：
+
+`v-model`：`v-bind` + `@input`
 
 ## 5.V-show & V-if 的差別
+
+參考資料：[Gua's Note](https://guahsu.io/2018/08/vue-if-with-vue-show-singleton/)
+
+Ans：
+
+`V-if`：當條件為`True`時，會把內容的DOM渲染出來，如果條件為 `false`，則會把DOM移掉（消失）
+
+`v-show`：一開始就把DOM渲染出來，當條件切換時，只做`Display：none`的切換。
 
 ## 6.Computed / Watch / Methods 的差異
 
