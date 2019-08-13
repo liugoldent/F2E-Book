@@ -8,6 +8,7 @@
 ## CONCEPTUAL ANALYSIS
 
 * [Vue.js](conceptual-analysis/vue.js.md)
+* [General](conceptual-analysis/general.md)
 
 ## SKILL TREE
 
