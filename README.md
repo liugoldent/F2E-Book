@@ -26,7 +26,9 @@ This Book Is For People who wants to become F2E!
 
 ## 事實：
 
-所謂的事實，這條路必定沒有那麼簡單，
+所謂的事實：  
+  
+這條路必定沒有那麼簡單，
 
 唯有持續努力，才不會落後。
 
