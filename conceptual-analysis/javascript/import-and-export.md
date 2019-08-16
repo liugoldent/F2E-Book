@@ -5,7 +5,11 @@
 * In _**ES5**_：Use `require` 
 * In _**ES6**_：Use `import` （Notice You Need Use _**Babel**_ to Compile）
 
-參考資料：[只是個打字的-淺談JS Import and  Export](https://blog.typeart.cc/%E6%B7%BA%E8%AB%87JavaScript%20ES6%E7%9A%84import%E8%88%87import%7B%7D%E5%8F%8Aexport%E5%8F%8Aexport%20default%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F/)
+參考資料：
+
+1. [只是個打字的-淺談JS Import and  Export](https://blog.typeart.cc/%E6%B7%BA%E8%AB%87JavaScript%20ES6%E7%9A%84import%E8%88%87import%7B%7D%E5%8F%8Aexport%E5%8F%8Aexport%20default%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F/) 
+2. [MDN Export](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Statements/export) 
+3. [MDN Import](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Statements/import)
 
 ## Export vs Export default
 
