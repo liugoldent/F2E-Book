@@ -7,10 +7,11 @@
 
 ## CONCEPTUAL ANALYSIS
 
-* [General](conceptual-analysis/general/README.md)
-  * [HTTP](conceptual-analysis/general/general-http.md)
-  * [Array Methods](conceptual-analysis/general/general-array-methods.md)
+* [HTTP](conceptual-analysis/general-http.md)
 * [Vue.js](conceptual-analysis/vue.js.md)
+* [JavaScript](conceptual-analysis/javascript/README.md)
+  * [Array Methods](conceptual-analysis/javascript/general-array-methods.md)
+  * [Import And Export](conceptual-analysis/javascript/import-and-export.md)
 
 ## SKILL TREE
 
