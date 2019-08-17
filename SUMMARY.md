@@ -13,6 +13,7 @@
   * [Array Methods](conceptual-analysis/javascript/js-general-array-methods.md)
   * [Import And Export](conceptual-analysis/javascript/js-import-and-export.md)
   * [Let And Const](conceptual-analysis/javascript/js-let-and-const.md)
+  * [TypeOf And InstanceOf](conceptual-analysis/javascript/typeof-and-instanceof.md)
   * [Closure](conceptual-analysis/javascript/js-closure.md)
 
 ## SKILL TREE
