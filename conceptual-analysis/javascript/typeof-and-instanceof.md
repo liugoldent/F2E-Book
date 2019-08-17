@@ -82,9 +82,9 @@ new  Date () instanceof  Date ; //true
 1. `function FOO(){...}` 只會產出 `FOO.prototype` 
 2. `var foo = new FOO();`  後就會產出 `foo.__proto__`
 
+## More Explained：
 
-
-
+* [JS Prototype Explained and Example](https://www.javascripttutorial.net/javascript-prototype/)
 
 
 
