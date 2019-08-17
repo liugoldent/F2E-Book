@@ -10,9 +10,10 @@
 * [HTTP](conceptual-analysis/general-http.md)
 * [Vue.js](conceptual-analysis/vue.js.md)
 * [JavaScript](conceptual-analysis/javascript/README.md)
-  * [Array Methods](conceptual-analysis/javascript/general-array-methods.md)
-  * [Import And Export](conceptual-analysis/javascript/import-and-export.md)
-  * [Let And Const](conceptual-analysis/javascript/let-and-const.md)
+  * [Array Methods](conceptual-analysis/javascript/js-general-array-methods.md)
+  * [Import And Export](conceptual-analysis/javascript/js-import-and-export.md)
+  * [Let And Const](conceptual-analysis/javascript/js-let-and-const.md)
+  * [Closure](conceptual-analysis/javascript/js-closure.md)
 
 ## SKILL TREE
 
