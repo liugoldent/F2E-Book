@@ -38,3 +38,5 @@ This Book Is For People who wants to become F2E!
 
 既然踏進了這條行業，就是不斷鞭策自己吧！
 
+
+
