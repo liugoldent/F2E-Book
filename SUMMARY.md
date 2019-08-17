@@ -12,6 +12,7 @@
 * [JavaScript](conceptual-analysis/javascript/README.md)
   * [Array Methods](conceptual-analysis/javascript/general-array-methods.md)
   * [Import And Export](conceptual-analysis/javascript/import-and-export.md)
+  * [Let And Const](conceptual-analysis/javascript/let-and-const.md)
 
 ## SKILL TREE
 
