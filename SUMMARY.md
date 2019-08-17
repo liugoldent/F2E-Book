@@ -18,6 +18,7 @@
 
 ## SKILL TREE
 
+* [ESLint And Prettier](skill-tree/eslint-and-prettier.md)
 * [NPM](skill-tree/npm/README.md)
   * [安裝常見錯誤-1 重複命名](skill-tree/npm/install-error-style-1.md)
   * [安裝常見錯誤-2 權限不足](skill-tree/npm/install-error-style-2.md)
