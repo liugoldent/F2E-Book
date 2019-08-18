@@ -10,6 +10,7 @@
 * [HTTP](conceptual-analysis/general-http.md)
 * [Vue.js](conceptual-analysis/vue.js.md)
 * [JavaScript](conceptual-analysis/javascript/README.md)
+  * [Arrow Function And Function](conceptual-analysis/javascript/js-arrow-function-and-function.md)
   * [DefineProperties And Reduce](conceptual-analysis/javascript/js-defineproperties-and-reduce.md)
   * [Array Methods](conceptual-analysis/javascript/js-general-array-methods.md)
   * [Import And Export](conceptual-analysis/javascript/js-import-and-export.md)
