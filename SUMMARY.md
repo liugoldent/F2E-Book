@@ -13,8 +13,10 @@
   * [Array Methods](conceptual-analysis/javascript/js-general-array-methods.md)
   * [Import And Export](conceptual-analysis/javascript/js-import-and-export.md)
   * [Let And Const](conceptual-analysis/javascript/js-let-and-const.md)
-  * [TypeOf And InstanceOf](conceptual-analysis/javascript/typeof-and-instanceof.md)
+  * [TypeOf And InstanceOf](conceptual-analysis/javascript/js-typeof-and-instanceof.md)
   * [Closure](conceptual-analysis/javascript/js-closure.md)
+* [Design Pattern](conceptual-analysis/design-pattern/README.md)
+  * [Factory（工廠模式）](conceptual-analysis/design-pattern/pattern-factory.md)
 
 ## SKILL TREE
 
