@@ -17,6 +17,7 @@
   * [Closure](conceptual-analysis/javascript/js-closure.md)
 * [Design Pattern](conceptual-analysis/design-pattern/README.md)
   * [Strategy（策略模式）](conceptual-analysis/design-pattern/strategy-ce-lve-mo-shi.md)
+  * [Facade（表象模式）](conceptual-analysis/design-pattern/facade-biao-xiang-mo-shi.md)
   * [Singleton（單例模式）](conceptual-analysis/design-pattern/singleton-chan-li-mo-shi.md)
   * [Factory（工廠模式）](conceptual-analysis/design-pattern/pattern-factory.md)
 
