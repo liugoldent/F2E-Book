@@ -66,7 +66,7 @@ new  Date () instanceof  Date ; //true
 
 資料來源：[\_\_proto\_\_ Vs. prototype in JS](https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript)
 
-![](../../.gitbook/assets/agfn3%20%281%29.png)
+![](../../.gitbook/assets/agfn3.png)
 
 1. `b.__proto__` 指向 `Foo.prototype` 
 2. `Foo.prototype.__proto__` 指向 `Object.prototype`
