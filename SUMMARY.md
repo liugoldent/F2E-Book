@@ -9,7 +9,8 @@
 
 * [HTTP](conceptual-analysis/general-http.md)
 * [OOP](conceptual-analysis/oop.md)
-* [Vue.js](conceptual-analysis/vue.js.md)
+* [Vue.js](conceptual-analysis/vue.js/README.md)
+  * [Prop And Emit](conceptual-analysis/vue.js/vue-prop-and-emit-example.md)
 * [JavaScript](conceptual-analysis/javascript/README.md)
   * [Arrow Function And Function](conceptual-analysis/javascript/js-arrow-function-and-function.md)
   * [DefineProperties And Reduce](conceptual-analysis/javascript/js-defineproperties-and-reduce.md)
