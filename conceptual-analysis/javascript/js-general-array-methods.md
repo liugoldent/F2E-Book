@@ -181,7 +181,7 @@ console.log(array1);
 // expected output: Array [1, 100000, 21, 30, 4]
 ```
 
-* `findIndex（）`：找出條件之索引
+* `findIndex（）`：找出條件之索引，無則為 _**-1**_
 
 ```javascript
 var array1 = [5, 12, 8, 130, 44];
@@ -190,7 +190,7 @@ console.log(array1.findIndex((element) => element>13));
 //notice 找到第一個，則結束此迴圈
 ```
 
-* `find（）`：找出條件之值
+* `find（）`：找出條件之值，無則為 _**undefined**_
 
 ```javascript
 var array1 = [5, 12, 8, 130, 44];
