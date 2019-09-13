@@ -7,7 +7,8 @@
 
 ## CONCEPTUAL ANALYSIS
 
-* [HTTP](conceptual-analysis/general-http.md)
+* [HTTP](conceptual-analysis/general-http/README.md)
+  * [Error from CORS](conceptual-analysis/general-http/error-from-cors.md)
 * [OOP](conceptual-analysis/oop.md)
 * [Vue.js](conceptual-analysis/vue.js/README.md)
   * [Prop And Emit](conceptual-analysis/vue.js/vue-prop-and-emit-example.md)
