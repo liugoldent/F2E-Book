@@ -18,6 +18,7 @@
   * [Import And Export](conceptual-analysis/javascript/js-import-and-export.md)
   * [Let And Const](conceptual-analysis/javascript/js-let-and-const.md)
   * [TypeOf And InstanceOf](conceptual-analysis/javascript/js-typeof-and-instanceof.md)
+  * [For Loop Effectiveness](conceptual-analysis/javascript/js-for-loop-effectiveness.md)
   * [Closure](conceptual-analysis/javascript/js-closure.md)
 * [Design Pattern](conceptual-analysis/design-pattern/README.md)
   * [Strategy（策略模式）](conceptual-analysis/design-pattern/pattern-strategy.md)
