@@ -8,7 +8,8 @@
 ## CONCEPTUAL ANALYSIS
 
 * [HTTP](conceptual-analysis/general-http/README.md)
-  * [Error from CORS](conceptual-analysis/general-http/error-from-cors.md)
+  * [Error from CORS](conceptual-analysis/general-http/http--error-from-cors.md)
+  * [Cookie、\[ ? \]Storage 的差異](conceptual-analysis/general-http/http-cookie-storage.md)
 * [OOP](conceptual-analysis/oop.md)
 * [Vue.js](conceptual-analysis/vue.js/README.md)
   * [Prop And Emit](conceptual-analysis/vue.js/vue-prop-and-emit-example.md)
