@@ -162,6 +162,9 @@ months.splice(4, 1, 'May');
 // replaces 1 element at index 4
 console.log(months);
 // expected output: Array ['Jan', 'Feb', 'March', 'April', 'May']
+
+months.splice();
+//可以讓陣列更新,並且不刪掉任何一個元素
 ```
 
 * `sort()`：排列一個陣列。
