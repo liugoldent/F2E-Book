@@ -181,5 +181,35 @@ console.log(array1);
 // expected output: Array [1, 100000, 21, 30, 4]
 ```
 
+* `findIndex（）`：找出條件之索引
+
+```javascript
+var array1 = [5, 12, 8, 130, 44];
+console.log(array1.findIndex((element) => element>13));
+//expected output : 3
+//notice 找到第一個，則結束此迴圈
+```
+
+* `find（）`：找出條件之值
+
+```javascript
+var array1 = [5, 12, 8, 130, 44];
+
+var found = array1.find(function(element) {
+  return element > 10;
+});
+
+console.log(found);
+// expected output: 12
+```
+
+
+
+
+
+
+
+
+
 
 
