@@ -2,8 +2,11 @@
 
 ## 基礎
 
-* MongoDB是資料庫的概念 
-* 而在現今資料庫中又分成： 
+* MongoDB為一種 NoSQL 資料庫 
+  * 一般的MongoDB是使用_**終端機**_來操作 
+  * 若不想使用終端機，則可以利用圖形化介面 _**Robo 3T**_ 
+* 但假若今天你要 _**操作 MongoDB**_，則可以用到 _**Mongoose**_，他是給 Node.js 用的 MongoDB ODM。 
+* 現今資料庫中又分成： 
   * SQL（關聯式資料庫） 
   * NoSQL（非關聯式資料庫）（此篇要講的）
 
@@ -22,9 +25,14 @@
   * 說明：以集合方式儲存，每個集合（Collection）有多筆文件（Document）組成，每筆文件可為Web 結構化資料（如JSON） 
   * _**層級**_： 
     * 多個 Document，組成一個 Collection 。 
-    * 多個 Collection，組成一個DB 
+    * 多個 Collection，組成一個DB
+
+{% hint style="danger" %}
+請深刻記得以上文件導向資料庫的層級
+{% endhint %}
+
 * 鍵值資料庫（Key-Value）：Redis、Dynamo 
-  * 應用場景：內容快取 
+* 應用場景：內容快取 
 * 列式資料庫（Column）：Cassandra、BigTable、Hbase 
   * 應用場景：分散式檔案系統 
 * 圖形資料庫（Graph）：GraphDB 
