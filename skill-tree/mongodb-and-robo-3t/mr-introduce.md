@@ -1,4 +1,4 @@
-# Introduce
+# 基礎介紹
 
 ## 基礎
 
@@ -19,12 +19,17 @@
 
 * 文件導向資料庫（Document）：MongoDB 
   * 應用場景：Web環境下的數據資料 
+  * 說明：以集合方式儲存，每個集合（Collection）有多筆文件（Document）組成，每筆文件可為Web 結構化資料（如JSON） 
+  * _**層級**_： 
+    * 多個 Document，組成一個 Collection 。 
+    * 多個 Collection，組成一個DB 
 * 鍵值資料庫（Key-Value）：Redis、Dynamo 
   * 應用場景：內容快取 
 * 列式資料庫（Column）：Cassandra、BigTable、Hbase 
   * 應用場景：分散式檔案系統 
 * 圖形資料庫（Graph）：GraphDB 
-  * 應用場景：社交網路
+  * 應用場景：社交網路 
+  * 說明：採用圖結構的概念儲存資料，並利用圖結構相關演算法提高效能。
 
 
 

@@ -35,5 +35,5 @@
   * [安裝常見錯誤-1 重複命名](skill-tree/npm/install-error-style-1.md)
   * [安裝常見錯誤-2 權限不足](skill-tree/npm/install-error-style-2.md)
 * [MongoDB & Robo 3T](skill-tree/mongodb-and-robo-3t/README.md)
-  * [Introduce](skill-tree/mongodb-and-robo-3t/introduce.md)
+  * [基礎介紹](skill-tree/mongodb-and-robo-3t/mr-introduce.md)
 
