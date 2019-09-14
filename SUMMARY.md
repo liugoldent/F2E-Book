@@ -13,6 +13,7 @@
 * [OOP](conceptual-analysis/oop.md)
 * [Vue Basic](conceptual-analysis/vue-basic/README.md)
   * [THINK](conceptual-analysis/vue-basic/vue-think.md)
+  * [Vue CLI Install](conceptual-analysis/vue-basic/vue-cli-install.md)
 * [JavaScript](conceptual-analysis/javascript/README.md)
   * [Arrow Function And Function](conceptual-analysis/javascript/js-arrow-function-and-function.md)
   * [DefineProperties And Reduce](conceptual-analysis/javascript/js-defineproperties-and-reduce.md)
