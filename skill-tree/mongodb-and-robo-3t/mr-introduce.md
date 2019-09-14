@@ -2,13 +2,17 @@
 
 ## 基礎
 
-* MongoDB為一種 NoSQL 資料庫 
-  * 一般的MongoDB是使用_**終端機**_來操作 
-  * 若不想使用終端機，則可以利用圖形化介面 _**Robo 3T**_ 
-* 但假若今天你要 _**操作 MongoDB**_，則可以用到 _**Mongoose**_，他是給 Node.js 用的 MongoDB ODM。 
 * 現今資料庫中又分成： 
   * SQL（關聯式資料庫） 
-  * NoSQL（非關聯式資料庫）（此篇要講的）
+  * NoSQL（非關聯式資料庫）（此篇要講的） 
+* _**MongoDB**_ 為一種 NoSQL 資料庫 
+  * 一般的MongoDB是使用_**終端機**_來操作 
+  * 若不想使用終端機，則可以利用圖形化介面 _**Robo 3T**_ 
+* 但假若今天你要 _**使用 Node.js 操作 MongoDB**_，則可以用到 _**Mongoose**_，他是給 Node.js 用的 MongoDB ODM。 
+* _**Mongoose**_ 基本觀念： 
+  * 由 Schema出發（定義MongoDb內一個Document的格式） 
+  * 定義好 Schema 後，將 Schema 輸出為一個 Model 
+  * Model 完成後，可控制 Model 做到 CRUD 功能。
 
 ## 思維
 
