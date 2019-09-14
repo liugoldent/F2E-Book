@@ -1,4 +1,4 @@
-# Vue（THINK）
+# THINK
 
 此篇主要述說在寫Vue時的基本觀念
 
