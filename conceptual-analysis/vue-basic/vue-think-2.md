@@ -7,7 +7,7 @@ THINK篇主要述說在寫Vue時的基本觀念
 * [掘金](https://juejin.im/post/5d59f2a451882549be53b170) 
 * [Vue 官網 - 教程](https://cn.vuejs.org/v2/guide/)
 
-## 10. 對SPA頁面的理解，優缺點分別為何？
+## 10.對SPA頁面的理解，優缺點分別為何？
 
 #### 優點：
 
@@ -24,7 +24,42 @@ THINK篇主要述說在寫Vue時的基本觀念
 
 ## 11.Class 和 Style 如何動態綁定
 
+#### 皆可使用 _**物件語法**_ 與 _**陣列語法**_ 來進行動態綁定
 
+```javascript
+//class
+//物件
+<div v-bind:class="{ active: isActive, 'text-danger': hasError }"></div>
+data: {
+  isActive: true,
+  hasError: false
+}
+//陣列
+<div v-bind:class="[isActive ? activeClass : '', errorClass]"></div>
+data: {
+  activeClass: 'active',
+  errorClass: 'text-danger'
+}
+```
+
+```javascript
+//style
+//物件
+<div v-bind:style="{ color: activeColor, fontSize: fontSize + 'px' }"></div>
+data: {
+  activeColor: 'red',
+  fontSize: 30
+}
+//陣列
+<div v-bind:style="[styleColor, styleSize]"></div>
+data: {
+  styleColor: {
+     color: 'red'
+   },
+  styleSize:{
+     fontSize:'23px'
+  }
+```
 
 
 
