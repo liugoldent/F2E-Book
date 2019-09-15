@@ -107,7 +107,17 @@ vm.items.splice(newLength)
   * 子 BeforeDestroy、Destroyed 
   * 父 Destroyed
 
-###  
+## 15. 在哪些生命週期中可以使用 非同步請求
+
+* 可於 Created、BeforeMount、Mounted 中進行使用，因為在這三個函數中，data 已經創建，而文獻中建議於Created中使用非同步請求。 
+* 原因： 
+  * 更快獲取後端數據，減少頁面 Loading 時間 
+  * SSR 不支持 BeforeMount、Mounted 這些函數，所以放在 Created中有一致性。
+
+
+
+  
+
 
 
 
