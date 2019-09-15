@@ -61,5 +61,38 @@ data: {
   }
 ```
 
+## 12.理解Vue的單向數據流
+
+* 所有prop 都使其父子之間形成一個單向往下的綁定，父級prop的更新會向下流動到子組件中，但是反過來則不行，這樣可以防止子組件意外改變父級組件的狀態。 
+* 所以當父組件改變時，子組件會刷新成新的值。而我們只能透過 `$emit` 發送一個定義事件，通知父組件修改，然後再傳進來（也就是子組件不應該修改值）。
+
+```javascript
+props: ['initialCounter'],
+props: ['size']
+data: function () {
+  return {
+    counter: this.initialCounter
+    //如果要修改東西時
+    //return this.size.trim().toLowerCase()
+  }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

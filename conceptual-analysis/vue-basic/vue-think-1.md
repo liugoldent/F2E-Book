@@ -26,7 +26,7 @@ Ans：
 Ans：
 
 1. `Data` 
-2. 父給子：`Props` / 子給父：`Emit`   
+2. 父給子：`Props` / 子給父：`$emit`   
 3. 兄弟組建之間傳遞：`Bus`
 
 ## 3.Vue 生命週期
