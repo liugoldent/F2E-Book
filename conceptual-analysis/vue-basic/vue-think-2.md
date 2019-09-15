@@ -78,6 +78,57 @@ data: function () {
 }
 ```
 
+## 13.讓Vue 必定能偵測到資料變化的方式
+
+#### 無法監測到的狀況：
+
+* 使用索引值，設置一個陣列項目時。ex：`vm.items[IndexOfItem] = newValue` 
+* 直接修改陣列長度時。ex：vm.items.length = newLength
+
+#### 解決第一個問題的方式：
+
+```javascript
+// Vue.set
+//陣列 -> 索引 -> 新的值
+Vue.set(vm.items, indexOfItem, newValue)
+// vm.$set，Vue.set的一个别名
+vm.$set(vm.items, indexOfItem, newValue)
+// Array.prototype.splice
+vm.items.splice(indexOfItem, 1, newValue)
+```
+
+#### 解決第二個問題的方式：
+
+```javascript
+vm.items.splice(newLength)
+```
+
+#### 更多參考資料：[為什麼畫面沒隨資料更新而更新](https://pjchender.blogspot.com/2017/05/vue-vue-reactivity.html)
+
+##  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
