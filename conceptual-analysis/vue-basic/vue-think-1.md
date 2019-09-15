@@ -36,10 +36,15 @@ Ans：
 Ans：
 
 * BeforeCreate：宣告一個空的Vue 物件 
+  * 組件實例被創建，屬性生效之前 
 * Created：這個 Vue 的物件初始化好了，內容的Data ＆ Methods 也好了。 
+  * 組件實例已經完全創建，屬性也綁定，但真實DOM 還沒有生成，`$el` 不可使用 
 * BeforeMount：把Vue這個初始好的物件，綁到DOM上（存在於記憶體中） 
+  * 掛載之前被調用，相關的 render 函數首次被使用 
 * Mounted：將DOM渲染至畫面（白話：把DOM放到你的瀏覽器上） 
+  * 掛載到實例上調用該 _**hook**_ 
 * BeforeUpdate：更新事件 
+  * 資料更新前使用，發生在虛擬的DOM 中 
 * Updated：更新事件完畢 
 * BeforeDestroy：刪除之前（可以控制） 
 * Destroyed：刪除之後（無法控制）
