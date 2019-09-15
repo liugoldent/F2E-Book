@@ -2,7 +2,10 @@
 
 THINK篇主要述說在寫Vue時的基本觀念
 
-而大部分的資料都可以從官網獲得：[Vue官網-教程](https://cn.vuejs.org/v2/guide/)
+而大部分的資料都可以從官網獲得：
+
+* [掘金](https://juejin.im/post/5d59f2a451882549be53b170) 
+* [Vue 官網 - 教程](https://cn.vuejs.org/v2/guide/)
 
 ## 1.為何使用V-for 時，必須加上Key值？
 
