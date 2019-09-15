@@ -1,6 +1,6 @@
-# THINK
+# THINK-1
 
-此篇主要述說在寫Vue時的基本觀念
+THINK篇主要述說在寫Vue時的基本觀念
 
 而大部分的資料都可以從官網獲得：[Vue官網-教程](https://cn.vuejs.org/v2/guide/)
 
