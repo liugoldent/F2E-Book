@@ -29,9 +29,27 @@ Ans：
 
 Ans：
 
-1. `Data` 
-2. 父給子：`Props` / 子給父：`$emit`   
-3. 兄弟組建之間傳遞：`Bus`
+* `Data` 
+* 父給子：`Props` / 子給父：`$emit`   
+  * vue 組件的基礎。 
+* `ref` & `$parent`  /  `$children` 
+  * `ref`：如果用於DOM上，就是指向 DOM。如果用於子組件，就是指向組件實例。 
+  * `$parent` / `$children`：訪問父/子實例 
+* `EventBus（$emit / $on）`：適用於父子、隔代、兄弟組件通信 
+  * 此種方法，透過一個 Vue 實例作為中央事件總線（事件中心），用它來觸發事件和監聽事件，從而實現任何組件間的通信，包括父子、隔代、兄弟組建。 
+* `$attrs / $listeners`：用於隔代組件通信 
+  * `$attrs`：包含了父作用域不被`prop`所識別的特性綁定。當一個組建沒有聲明任何 `prop` 時，這裡會包含所有父作用域的綁定（class & style 除外），並且可以通過 v-bind="$attrs"傳入內部組件。通常配合`inheritAttrs`。 
+  * `$listeners`：包含父作用域中的 `v-on` 事件監聽器。可以通過 `v-on="$listeners"` 傳入內部組件。 
+* `provide / inject`：適用於隔代組件通信 
+  * 祖先組件通過 `provider` 來提供變量，然後在子組件中通過 `inject` 來注入變量。有點主動提供與依賴注入的關係。 
+* Vuex：適用於父子、隔代、兄弟組件通信。 
+  * Vuex 為狀態管理模式。 
+  * 每一個 Vuex應用的核心是 `store`。”`store`“ 基本上是一個容器 包含著我們大部分使用的狀態（`state`） 
+  * 當Vue 組件從 store 中讀取狀態時，若 _**store 狀態發生改變**_，相應的_**組件**_也會相應地得到_**更新**_。 
+  * 改變 store 的唯一途徑 就是 _**提交（commit）mutation**_。這樣使得我們可以方便地跟蹤每一個狀態的變化。 
+  * 動作過程：_**commit mutation**_ -&gt; _**store 狀態改變**_ -&gt; _**組件更新**_。
+
+
 
 ## 3.Vue 生命週期
 
