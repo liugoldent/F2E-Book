@@ -7,6 +7,10 @@ THINK篇主要述說在寫Vue時的基本觀念
 * [掘金](https://juejin.im/post/5d59f2a451882549be53b170) 
 * [Vue 官網 - 教程](https://cn.vuejs.org/v2/guide/)
 
+## 0.鉤子：
+
+* 具有既定生命週期的框架，在生命週期各個階段留給用戶執行的一些_**特定操作函數**_。
+
 ## 1.為何使用V-for 時，必須加上Key值？
 
 參考資料：[CSDN-「Vue v-for 中的key」](https://blog.csdn.net/qq_35285627/article/details/81012902)

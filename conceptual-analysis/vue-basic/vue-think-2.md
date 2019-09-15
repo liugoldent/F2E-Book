@@ -118,7 +118,40 @@ vm.items.splice(newLength)
 
 * 在 Mounted 中，可以開始操作 DOM。
 
+## 17.父組件監聽子組件的生命週期
 
+* 利用 `@hook` 監聽
+
+```javascript
+//  Parent.vue
+<Child @hook:mounted="doSomething" ></Child>
+
+doSomething() {
+   console.log('父组件監聽到 mounted 鉤子函數 ...');
+},
+    
+//  Child.vue
+mounted(){
+   console.log('子组件觸發 mounted 鉤子函数 ...');
+},    
+    
+// 以上輸出顺序為：
+// 子组件觸發 mounted 鉤子函数 ...
+// 父组件監聽到 mounted 鉤子函数 ...
+// 另外如 created、updated 也都可以監聽     
+```
+
+## 18.Keep-alive
+
+* 為一個 Vue 內置的組件，可以使其組件保留狀態，避免重新渲染 
+* 一般結合路由和動態組件一起使用，用於緩存組件。 
+* 提供 include & exclude 屬性，兩者都支持字符串或正規表達式 
+  * include 只有名稱匹配的或被緩存 
+  * exclude 表示任何名稱匹配的都 _**不會**_ 被緩存 
+  * exclude 優先級比 include 高 
+* 分別對應兩個鉤子函數 
+  * Activated：keep-alive 啟動時調用。 
+  * Deactivated：keep-alive 停用時調用。
 
 
 
