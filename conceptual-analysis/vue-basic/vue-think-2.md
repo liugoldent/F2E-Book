@@ -114,10 +114,9 @@ vm.items.splice(newLength)
   * 更快獲取後端數據，減少頁面 Loading 時間 
   * SSR 不支持 BeforeMount、Mounted 這些函數，所以放在 Created中有一致性。
 
+## 16.何時可以訪問操作 DOM
 
-
-  
-
+* 在 Mounted 中，可以開始操作 DOM。
 
 
 
