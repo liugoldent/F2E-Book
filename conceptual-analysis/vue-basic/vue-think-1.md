@@ -58,9 +58,9 @@ Ans：
 
 Ans：
 
-`V-if`：當條件為`True`時，會把內容的DOM渲染出來，如果條件為 `false`，則會把DOM移掉（消失）
+`V-if`：當條件為`True`時，會把內容的DOM渲染出來，如果條件為 `false`，則會把DOM移掉（消失）。並且直到條件變為真，才會開始渲染條件區塊。
 
-`v-show`：一開始就把DOM渲染出來，當條件切換時，只做`Display：none`的切換。
+`v-show`：一開始就把DOM渲染出來，當條件切換時，只做`Display：none`的切換。（不管條件為何，元素總是會被渲染，只是針對_**CSS**_ 的`Display`做切換。）
 
 ## 6.Computed / Watch / Methods 的差異
 
