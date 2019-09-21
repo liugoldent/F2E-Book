@@ -14,6 +14,7 @@
 * [Vue Basic](conceptual-analysis/vue-basic/README.md)
   * [THINK-1](conceptual-analysis/vue-basic/vue-think-1.md)
   * [THINK-2](conceptual-analysis/vue-basic/vue-think-2.md)
+  * [THINK-3](conceptual-analysis/vue-basic/vue-think-3.md)
   * [Vue CLI Install](conceptual-analysis/vue-basic/vue-cli-install.md)
 * [JavaScript](conceptual-analysis/javascript/README.md)
   * [Arrow Function And Function](conceptual-analysis/javascript/js-arrow-function-and-function.md)
