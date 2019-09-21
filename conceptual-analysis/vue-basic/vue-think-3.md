@@ -56,7 +56,70 @@ switch (mode) {
     * `history.pushState` & `history.replaceState` 不會觸發 `popstate`，我們需要透過手動觸發頁面跳轉。 
 * `abstract`：支持所有 JS 運行環境，如果Node.js 端沒發現瀏覽器的 API，路由會自動進入這個模式。
 
-## 
+## 23.MVVM
+
+#### Basic
+
+* 源自經典的MVC模式，MVVM促進了前後端分離，提高了前端開發效率。MVVM 核心為 VM（ViemModel）層，像一個中繼站，負責轉換Model 中的數據對象來讓數據變得更加容易管理和使用。 
+* VM 向上與視圖層進行雙向數據綁定，向下與Model 層通過接口請求進行數據交互，達呈上啟下作用。 
+* 名詞分析： 
+  * V：為視圖層，為用戶介面。前端由HTML 和 CSS 來建構。 
+  * M：數據模型，泛指後端進行的各種業務邏輯處理和數據操控，對於前端來說是後端API接口。 
+  * VM：在這裏，前端開發者對從後端獲取的數據進行轉換處理，做二次封裝，以生成符合View層使用預期的視圖數據模型。 
+    * Notice：封裝出來的數據包含視圖的狀態和行為兩部分，而Model只包含狀態 
+
+#### 附上作者的Code 讓大家參考了解
+
+* _**View**_
+
+```javascript
+<div id="app">
+    <p>{{message}}</p>
+    <button v-on:click="showMessage()">Click me</button>
+</div>
+```
+
+* _**ViewModel**_
+
+```javascript
+var app = new Vue({
+    el: '#app',
+    data: {  // 描述視圖狀態
+        message: 'Hello Vue!', 
+    },
+    methods: {  // 描述視圖行為  
+        showMessage(){
+            let vm = this;
+            alert(vm.message);
+        }
+    },
+    created(){
+        let vm = this;
+        // Ajax 獲取 Model 數據
+        ajax({
+            url: '/your/server/data/api',
+            success(res){
+                vm.message = res;
+            }
+        });
+    }
+})
+```
+
+* _**Model**_
+
+```javascript
+{
+    "url": "/your/server/data/api",
+    "res": {
+        "success": true,
+        "name": "IoveC",
+        "domain": "www.cnblogs.com"
+    }
+}
+```
+
+
 
 
 
