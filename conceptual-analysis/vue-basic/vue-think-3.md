@@ -153,7 +153,19 @@ var app = new Vue({
   * 或是在尾端直接 `array.splice()` 
 * 使用 `vm.$set(array , index , value)`
 
-## 
+## 27.虛擬DOM實現原理
+
+#### 包含三個部分
+
+* 用JS物件模擬真實DOM，對真實DOM進行抽象。 
+* `diff` 算法：比較兩顆虛擬DOM樹的差異。 
+* `pach`算法：將兩個虛擬DOM物件的差異，用到真正的DOM。
+
+## 28. Vue的 Key之作用
+
+* `key`為_**vnode的唯一標記**_，通過這個`key`，我們的`diff`操作可以更準確與快速。 
+  * 準確：`key`不是就地複用，在sameNode函數，`a.key===b.key`對比中可以避免就地複用的情況。所以會更加準確。 
+  * 快速：利用`key`唯一性生成的map物件，來獲取對應的節點，比遍歷方式更快
 
 
 
