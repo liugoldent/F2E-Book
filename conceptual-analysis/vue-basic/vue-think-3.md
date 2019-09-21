@@ -139,7 +139,21 @@ var app = new Vue({
 
 * 兼容性好，因Proxy 存在瀏覽器兼容性問題。
 
+## 26.Vue 怎麼用 vm.$set\(\)解決無法響應的問題。
 
+#### 物件
+
+* 於 `Data`中把需要響應式的資料設定進去。 
+* 一次修改_**一個**_屬性時，使用 `vm.$set(Obj ,key ,value )` 
+* 一次修改_**多個**_屬性時，通過 `Obj.assign()`，來重新建立一個新的物件，讓Vue去監控
+
+#### 陣列（利用陣列索引直接設定值）
+
+*  使用Vue 可以觀測到的陣列方法，ex：`push()`、`pop()`、`shift()`、`unshift()`... 
+  * 或是在尾端直接 `array.splice()` 
+* 使用 `vm.$set(array , index , value)`
+
+## 
 
 
 
