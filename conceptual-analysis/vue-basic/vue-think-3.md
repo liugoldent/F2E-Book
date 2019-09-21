@@ -126,7 +126,18 @@ var app = new Vue({
 * 實現一個訂閱者 _**Watcher**_：此為 Observer & Compile 之間的橋樑，主要的任務是訂閱Observer中屬性值的變化消息，當屬性值變化，即觸發解析器中的函數。 
 * 實現一個訂閱器 _**Dep**_：採用發布-訂閱設計模式，用來收集訂閱者 Watcher，對監聽器Observer 和訂閱者 Watcher 進行統一管理。
 
+## 25. Proxy & Obj.defineProperty 比較
 
+#### Proxy：
+
+* 直接監聽對象而非屬性。 
+* 直接監聽數組變化。 
+* 多達 13 種攔截方法，不限於 `apply`、`ownKeys`、`deleteProperty`、`has`等等`defineProperty`不具備的。 
+* 返回一個新對象，可以只操作新的對象達到目的。而 DefineProperty 只能遍歷對象屬性直接修改。
+
+#### defineProperty：
+
+* 兼容性好，因Proxy 存在瀏覽器兼容性問題。
 
 
 
