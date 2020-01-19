@@ -1,6 +1,7 @@
 # Table of contents
 
 * [INTRODUCTION](README.md)
+* [F2E Should Know it](f2e-should-know-it.md)
 * [幼幼班の前端工程師](jujunior-front-end-engineer.md)
 * [初階の前端工程師](junior-front-end-engineer.md)
 * [快速上手/學習](quick-start.md)
