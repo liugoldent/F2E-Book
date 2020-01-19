@@ -4,80 +4,13 @@ description: This Book Is For People who wants to become F2E
 
 # INTRODUCTION
 
-## Step Of F2E
-
-## Getting Super Powers
-
-Becoming a super hero is a fairly straight forward process:
-
-## Getting Super Powers
-
-```
-$ give me super-powers
-```
-
-Becoming a super hero is a fairly straight forward process:
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-## FOR：
-
-Once you're strong enough, save the world:
-
-```
-$ give me super-powers
-```
-
-```
-// Ain't no code for that yet, sorry
-echo 'You ot to trust me on this, I saved the world'
-```
-
-Becoming a super hero is a fairly straight forward process:
-
-
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-This Book Is For People who wants to become F2E!
-
-Once you're strong enough, save the world:
-
-```
-$ give me super-powers
-```
-
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-
 ## WHY  TO DO：
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-記錄那些，在這條路上遇到的困難、選擇、工具。
-
-Once you're strong enough, save the world:
+紀錄那些，在這條路上遇到的困難、選擇、工具。
 
 ## WHY  GitBOOK：
 
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-
 我希望閱讀者可以一目瞭然，直接點進自己想看的環節。
-
-
-
-
 
 曾經使用過IT邦幫忙，但覺得分類似乎稍微不足
 
