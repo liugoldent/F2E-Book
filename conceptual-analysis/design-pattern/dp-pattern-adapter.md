@@ -2,7 +2,9 @@
 
 ## 目的
 
+{% hint style="success" %}
 用來解決兩個接口不兼容的問題，由一個物件來包裝不兼容的物件
+{% endhint %}
 
 ## Code
 
