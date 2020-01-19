@@ -21,6 +21,8 @@
 
 ## Code
 
+### ES5
+
 ```javascript
 const tomato = function() {
   return "番茄";
@@ -38,11 +40,46 @@ console.log(tomatoEgg());
 //以上，使用者只要知道tomato / egg 即可，不用知道那是怎麼排列的
 ```
 
+### ES6
 
+```javascript
+class Facade {
+    _get() {
+        console.log("current value:" + this.i);
+    }
+    _set(val) {
+        this.i = val;
+    }
+    _run() {
+        console.log("running");
+    }
+    _jump() {
+        console.log("jumping");
+    }
 
+    facade(args) {
+        this._set(args.val);
+        this._get();
+        if (args.run) {
+            this._run();
+        }
+    }
+}
+let fa = new Facade();
+fa.facade({ run: true, val: 10 });
+//印出 current value:10
+//印出 running
+```
 
+## 優點
 
+* 減少系統相互依賴 
+* 提高靈活性 
+* 提高安全性
 
+## 缺點
+
+* 不符合開放封閉原則
 
 
 
