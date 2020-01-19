@@ -6,14 +6,33 @@ description: This Book Is For People who wants to become F2E
 
 ## Getting Super Powers
 
-## FOR：
+## Getting Super Powers
 
 Becoming a super hero is a fairly straight forward process:
 
-This Book Is For People who wants to become F2E!
+## FOR：
 
 ```
 $ give me super-powers
+```
+
+Becoming a super hero is a fairly straight forward process:
+
+{% hint style="info" %}
+ Super-powers are granted randomly so please submit an issue if you're not happy with yours.
+{% endhint %}
+
+This Book Is For People who wants to become F2E!
+
+Once you're strong enough, save the world:
+
+```
+$ give me super-powers
+```
+
+```
+// Ain't no code for that yet, sorry
+echo 'You got to trust me on this, I saved the world'
 ```
 
 ## WHY  TO DO：
@@ -34,6 +53,8 @@ echo 'You got to trust me on this, I saved the world'
 ```
 
 我希望閱讀者可以一目瞭然，直接點進自己想看的環節。
+
+
 
 
 
