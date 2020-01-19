@@ -1,19 +1,4 @@
 # Design Pattern
 
-## 資料來源
-
-* [JavaScript 設計模式 ES6 （23 種設計模式）- 掘金](https://juejin.im/post/5e021eb96fb9a01628014095#heading-34) 
-* [JavaScript 設計模式，使用ES6 語法](http://www.jeepxie.net/article/556811.html)
-
-## 創建式模式
-
-* **工廠方法模式**、**抽象工廠模式**、**單例模式**、構造者模式、原型模式
-
-## 結構型模式
-
-* **適配器模式**、**裝飾器模式**、**代理模式**、**外觀模式**、橋接模式、組合模式、享元模式
-
-## 行為型模式
-
-* 策略模式、模板方法模式、**觀察者模式**、**迭代器模式**、責任鍊模式、命令模式、備忘錄模式、**狀態模式**、訪問者模式、中介者模式、解釋器模式
+## In This Topic, We will talk about Design Pattern
 
