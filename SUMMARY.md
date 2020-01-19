@@ -26,6 +26,7 @@
   * [For Loop Effectiveness](conceptual-analysis/javascript/js-for-loop-effectiveness.md)
   * [Closure](conceptual-analysis/javascript/js-closure.md)
 * [Design Pattern](conceptual-analysis/design-pattern/README.md)
+  * [Decorator（裝飾者模式）](conceptual-analysis/design-pattern/decorator-zhuang-shi-zhe-mo-shi.md)
   * [Adapter（適配器模式）](conceptual-analysis/design-pattern/dp-pattern-adapter.md)
   * [Strategy（策略模式）](conceptual-analysis/design-pattern/dp-pattern-strategy.md)
   * [Facade（外觀模式）](conceptual-analysis/design-pattern/dp-pattern-facade.md)
