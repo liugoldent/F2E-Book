@@ -6,15 +6,29 @@
 * [Summer - Strategy 策略模式](http://cythilya.blogspot.com/2015/07/javascript-design-pattern-strategy.html) 
 * [it邦幫忙：jlin178-策略模式](https://ithelp.ithome.com.tw/articles/10202419)
 
-## Purpose
+## 目的
 
-* 將變動的部分、各種方法_**封裝**_起來 
-* 使用物件，而非使用判斷式（`switch`）（判斷式違反開放封閉原則） 
-* 針對介面寫程式，不是針對實踐寫程式 
-* 多用合成（擴展），少用繼承。 
-* 原則：將不變的部分和變化的部分分開
+{% hint style="success" %}
+將變動的部分、各種方法_**封裝**_起來
+{% endhint %}
 
-## Conceptual
+{% hint style="success" %}
+使用物件，而非使用判斷式（`switch`）（判斷式違反開放封閉原則）
+{% endhint %}
+
+{% hint style="success" %}
+針對介面寫程式，不是針對實踐寫程式
+{% endhint %}
+
+{% hint style="success" %}
+多用合成（擴展），少用繼承。
+{% endhint %}
+
+{% hint style="success" %}
+原則：將不變的部分和變化的部分分開
+{% endhint %}
+
+## 舉例
 
 * 今天有個百貨做折扣  
 
