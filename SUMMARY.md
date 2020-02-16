@@ -11,7 +11,7 @@
   * [Error from CORS](conceptual-analysis/http/http--error-from-cors.md)
   * [Cookie、\[ ? \]Storage 的差異](conceptual-analysis/http/http-cookie-storage.md)
 * [OOP](conceptual-analysis/oop.md)
-* [Vue Basic](conceptual-analysis/vue-basic/README.md)
+* [Vue](conceptual-analysis/vue-basic/README.md)
   * [THINK-1](conceptual-analysis/vue-basic/vue-think-1.md)
   * [THINK-2](conceptual-analysis/vue-basic/vue-think-2.md)
   * [THINK-3](conceptual-analysis/vue-basic/vue-think-3.md)

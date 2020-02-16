@@ -4,8 +4,6 @@
 
 OOP
 
-OOP
-
 Object-Oriented programming
 
 物件導向

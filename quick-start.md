@@ -1,9 +1,5 @@
 # 快速上手/學習
 
-## MAIN：
-
-因為變化快，所以你需要比別人更努力
-
 ## SKILLS：
 
 1. HTML、CSS、JS： 這三個如果不努力學，我不知道該怎麼說了。 
@@ -12,24 +8,8 @@
 4. API串接（Restful）： 身為一個前端，就是要串串資料，多做練習 然後也感謝之前Youtube上有許多教學影片。 推薦網站：[Yakim sHu 教](https://yakimhsu.com/project/project_w4_Network_API.html)  、 [Alex Vue 全家餐影片（1:02:xx左右開始）](https://www.youtube.com/watch?v=MCTETw0Slrw&t=3760s) 
 5. ECharts： 圖形化資料的工具，同樣的也有中文。 然後建議，看實例，再去看教程，可以學更快。 推薦網站：[ECharts 官網](https://echarts.baidu.com/) 
 6. TypeScript： 可以先定義其變數類型，不過從類的部分開始，個人覺得要更加努力，才可以上手。 推薦網站：[TypeScript 中文手冊](https://typescript.bootcss.com/) 
-7. NPM：  
-   這邊直接跟你說流程：  
-
-
-   ```text
-   1.開啟一個專案資料夾後，然後一定要做以下
-   ```
-
-   ```text
-   2.npm init
-   ```
-
-   ```text
-   3.注意Package.json中的name，不要跟要下載的東西一樣，盡量寫成Testxxxx、YourName。
-   ```
-
-8. Gulp： 前端自動化工具，但聽說現在已經停止更新，然後要注意v3.0 & v4.0版本的差異。 推薦網站： [it邦幫忙的Duran Hsieh](https://ithelp.ithome.com.tw/articles/10185420) （這個看流程，大概怎麼做） [v3.0 vs v4.0](https://blog.skk.moe/post/update-gulp-to-4/) （這個看v3.0 與 v4.0 的差異） 
-9. Parcel： 前端打包工具，很舒服很簡單的操作。 推薦網站：[Parcel官網](https://parceljs.org/getting_started.html) 
+7. Gulp： 前端自動化工具，但聽說現在已經停止更新，然後要注意v3.0 & v4.0版本的差異。 推薦網站： [it邦幫忙的Duran Hsieh](https://ithelp.ithome.com.tw/articles/10185420) （這個看流程，大概怎麼做） [v3.0 vs v4.0](https://blog.skk.moe/post/update-gulp-to-4/) （這個看v3.0 與 v4.0 的差異） 
+8. Parcel： 前端打包工具，很舒服很簡單的操作。 推薦網站：[Parcel官網](https://parceljs.org/getting_started.html) 
 
 ## Experience：
 

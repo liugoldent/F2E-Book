@@ -1,2 +1,2 @@
-# Vue Basic
+# Vue
 
