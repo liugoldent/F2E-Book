@@ -1,4 +1,4 @@
-# Mediator\(中介者模式\)
+# Mediator \(中介者模式\)
 
 ## Code
 
