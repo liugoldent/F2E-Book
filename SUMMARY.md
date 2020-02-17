@@ -29,6 +29,8 @@
   * [Closure](conceptual-analysis/javascript/js-closure.md)
   * [CallBack Function & IIFE](conceptual-analysis/javascript/callback-function-and-iife.md)
 * [Design Pattern](conceptual-analysis/design-pattern/README.md)
+  * [Momento \(備忘錄模式\)](conceptual-analysis/design-pattern/dp-pattern-momento.md)
+  * [Command \(命令模式\)](conceptual-analysis/design-pattern/dp-pattern-command.md)
   * [Chain of Responsibility \(職責鏈模式\)](conceptual-analysis/design-pattern/chain-of-responsibility-zhi-ze-lian-mo-shi.md)
   * [Template \(模板方法模式\)](conceptual-analysis/design-pattern/template-mo-ban-fang-fa-mo-shi.md)
   * [Prototype（原型模式）](conceptual-analysis/design-pattern/dp-pattern-prototype.md)
