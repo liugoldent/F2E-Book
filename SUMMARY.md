@@ -18,6 +18,7 @@
   * [THINK-3](conceptual-analysis/vue-basic/vue-think-3.md)
   * [Vue CLI Install](conceptual-analysis/vue-basic/vue-cli-install.md)
 * [JavaScript](conceptual-analysis/javascript/README.md)
+  * [Promise](conceptual-analysis/javascript/promise.md)
   * [Cascade](conceptual-analysis/javascript/cascade.md)
   * [This](conceptual-analysis/javascript/js-this.md)
   * [Arrow Function And Function](conceptual-analysis/javascript/js-arrow-function-and-function.md)
