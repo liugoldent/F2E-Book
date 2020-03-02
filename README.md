@@ -10,7 +10,7 @@ description: This Book Is For People who wants to become F2E
 
 ## 關於本人：
 
-[About Me](http://guan-profile.surge.sh/)
+[About Me](http://guan-portfolio.surge.sh/)
 
 ## 此篇 GitBook 網頁好讀版：
 
