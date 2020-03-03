@@ -18,6 +18,7 @@
   * [THINK-3](conceptual-analysis/vue-basic/vue-think-3.md)
   * [Vue CLI Install](conceptual-analysis/vue-basic/vue-cli-install.md)
 * [JavaScript](conceptual-analysis/javascript/README.md)
+  * [By ref or by value](conceptual-analysis/javascript/js-by-ref-or-by-value.md)
   * [TypeOf](conceptual-analysis/javascript/typeof.md)
   * [Arrow Function - This](conceptual-analysis/javascript/js-arrow-function-this.md)
   * [Class](conceptual-analysis/javascript/js-class.md)
