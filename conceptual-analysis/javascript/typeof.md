@@ -116,6 +116,10 @@ Object.prototype.toString.call([1, 2, 3]) // [object array]
 ```javascript
 let a = new Number()
 let b = new String()
-let c = new 
+let c = new Boolean()
+
+console.log(typeof a) // object
+console.log(typeof b) // object
+console.log(typeof c) // object
 ```
 
