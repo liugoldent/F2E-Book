@@ -18,6 +18,7 @@
   * [THINK-3](conceptual-analysis/vue-basic/vue-think-3.md)
   * [Vue CLI Install](conceptual-analysis/vue-basic/vue-cli-install.md)
 * [JavaScript](conceptual-analysis/javascript/README.md)
+  * [Expression / Operator](conceptual-analysis/javascript/js-expression-operator.md)
   * [Hoisting](conceptual-analysis/javascript/js-hoisting.md)
   * [TypeOf](conceptual-analysis/javascript/typeof.md)
   * [By ref or by value](conceptual-analysis/javascript/js-by-ref-or-by-value.md)
