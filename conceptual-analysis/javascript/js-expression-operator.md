@@ -112,3 +112,30 @@ Infinity / 0 = NaN
 // 當右方為 Infinity > 則結果為左方
 ```
 
+### 算術運算子：強制轉型
+
+```javascript
+console.log(+10) // 10
+console.log(+'ABC') // NaN  也會轉為數字，但為NaN
+```
+
+### 遞增與遞減
+
+```javascript
+let a = 10 
+let b = 10
+console.log(a++) // （a++為後做）我下定義 這個 a 要加，但是還沒做
+console.log(a) // 因為後做+1 > 就印出了 11
+console.log(++b) // (先做+1)，所以印出11
+console.log(b) // 已經做了，所以就是11
+```
+
+### 遞增遞減相乘
+
+```javascript
+// ++ 在前代表回傳先做的值
+// ++ 在後代表回傳現在的值
+let a = 10
+console.log(++a*a) // 121
+```
+
