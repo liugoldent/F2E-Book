@@ -139,3 +139,47 @@ let a = 10
 console.log(++a*a) // 121
 ```
 
+### 比較運算子
+
+* 一個等於（ `=` ）。賦值 
+* 兩個等於（ `==` ）。自動轉型的比較 
+* 三個等於（ `===` ）。不會自動轉型的比較 
+* 不等於（ `!=` ）。會自動轉型 
+* 不等於（ `!==` ）。不會自動轉型
+
+#### 自動轉型的規則
+
+* 如果其中一個為 Boolean，會將 true 轉為數字 1。false 轉為數字 0 
+* 字串與數字作比較，字串會先轉為數字 `Number()` 
+* 若一個為物件型態，則會用 `valueOf()`，取得基本型別的值。 
+* NaN 不等於 NaN 
+* 兩個物件比較時，指向同一個_**實體**_才會回傳 `true`
+
+下列範例資料來源：[重新認識JS，Day07](https://ithelp.ithome.com.tw/articles/10191254)
+
+```javascript
+//神奇的比較 
+false == 0    // true
+true == 1     // true
+
+[] == []      // false
+[] == ![]     // true
+
+[] == ''      // true
+[] == 0       // true
+
+[''] == ''    // true
+[0] == 0      // true
+
+[0] == ''     // false
+[''] == 0     // true
+
+null == undefined   // true
+
+[null] == ''        // true
+[null] == 0         // true
+
+[undefined] == ''   // true
+[undefined] == 0    // true
+```
+
