@@ -25,6 +25,7 @@
   * [Expression / Operator part2](conceptual-analysis/javascript/js-expression-operator-part2.md)
   * [Loop](conceptual-analysis/javascript/js-loop.md)
   * [For Loop Effectiveness](conceptual-analysis/javascript/js-for-loop-effectiveness.md)
+  * [Function](conceptual-analysis/javascript/js-function.md)
   * [Arrow Function - This](conceptual-analysis/javascript/js-arrow-function-this.md)
   * [Class](conceptual-analysis/javascript/js-class.md)
   * [Promise](conceptual-analysis/javascript/js-promise.md)
