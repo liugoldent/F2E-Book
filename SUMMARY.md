@@ -19,6 +19,7 @@
   * [Vue CLI Install](conceptual-analysis/vue-basic/vue-cli-install.md)
 * [JavaScript](conceptual-analysis/javascript/README.md)
   * [Expression / Operator](conceptual-analysis/javascript/js-expression-operator.md)
+  * [Expression / Operator part2](conceptual-analysis/javascript/js-expression-operator-part2.md)
   * [Hoisting](conceptual-analysis/javascript/js-hoisting.md)
   * [TypeOf](conceptual-analysis/javascript/typeof.md)
   * [By ref or by value](conceptual-analysis/javascript/js-by-ref-or-by-value.md)
