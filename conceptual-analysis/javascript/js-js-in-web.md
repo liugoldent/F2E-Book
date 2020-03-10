@@ -36,3 +36,29 @@
 document.getElementByTagName('xxx).textContext = "Hello World"
 ```
 
+## 所謂的 &lt;script&gt; 放哪裡與怎麼取節點
+
+* head 
+  * 放在`<head>`中，有可能因為`<script>`要對DOM做事，而DOM還沒生成照成錯誤 
+* body 
+  * 可用 `docement.querySelector('#Hello')` 來找尋節點 
+  * 父子節點 
+    * 判斷是否有子節點：`hasChildNodes()` 
+    * 取得第一個子節點：`firstChild()` 
+    * 取得最後一個子節點：`lastChild()`。若無則`null` 
+    * 取得兄弟節點：`parentNode()` 
+  * 兄弟節點（若無下一個則回傳 `null`） 
+    * 前一個兄弟節點：`previousSibling()` 
+    * 下一個兄弟節點：`nextSibling()` 
+  * 後面可接 
+    * nodeName：就為節點名稱 
+    * textContent：就為文字內容
+
+## 遍歷 selector
+
+* `document.gerElementById` &gt; 取得只會有一個節點，故沒有index / length屬性，節點受 js 程式影響
+
+* `document.querySelector` &gt; 取得只會有一個節點，故沒有index / length屬性。節點不受 js程式影響。 
+* `document.getElementsBy**` &gt; 取得集合，節點受 js程式影響 
+* `document.querySelectorAll` &gt; 取得節點List，為靜態的，不受 js 程式刪除所影響
+
