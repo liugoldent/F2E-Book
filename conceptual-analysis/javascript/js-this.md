@@ -5,6 +5,32 @@
 * this 會因執行的環境與上下文 context 不同，而有不同的結果 
   * this. 不等於 function。代表的是 func 執行時所屬的物件。
 
+## 重新指向 this
+
+文章來源：[卡斯伯-JS的this到底是誰](https://wcc723.github.io/javascript/2017/12/12/javascript-this/)
+
+這邊要注意的是 `setTimeout` 通常會指向全域
+
+```javascript
+function callName() {
+  console.log('區域', this.name);
+  var that = this;
+  setTimeout(function () {
+    console.log('全域', this.name);
+    console.log('區域', that.name);
+  }, 10);
+}
+
+var name = '全域阿婆';
+var auntie = {
+  name: '漂亮阿姨',
+  callName: callName  
+  // 這裡的 function 指向全域的 function，但不重要
+}
+
+auntie.callName();
+```
+
 ## 強制指定this的方式
 
 * 在JS中，有強制指定this的方式，分別是 `call()`、`apply()`、`bind()` 
